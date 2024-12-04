@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Text-to-Speech Extension",
+    "name": "Vision Ease",
     "version": "1.1",
-    "description": "A Chrome extension to read selected text aloud using Text-to-Speech.",
+    "description": "A Chrome extension to help People with visual disabilities.",
     "permissions": ["contextMenus", "scripting", "activeTab"],
     "background": {
       "service_worker": "background.js"
@@ -16,7 +16,9 @@
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
       }
     }
   }
